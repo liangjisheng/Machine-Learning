@@ -1,0 +1,11 @@
+clear all;clc;
+x=-2:0.3:2;
+y=x;
+[X,Y]=meshgrid(x,y);
+Z=X.*exp(-X.^2-Y.^2);
+figure('color',[1,1,1]);
+subplot(121);
+plot(X,Y,'o');
+subplot(122);
+surf(X,Y,Z);
+xlabel('x');ylabel('y');zlabel('z');

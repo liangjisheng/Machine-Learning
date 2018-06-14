@@ -1,0 +1,12 @@
+clear all;clc;
+t=0:1/100:1;
+figure(1),plot(cos(2*pi*t),sin(2*pi*t)),axis auto;
+figure(2),plot(cos(2*pi*t),sin(2*pi*t)),axis square;
+grid on;
+x=0:0.1:10;
+u=1./(x-1).^2+x;
+figure(3),plot(x,u),axis xy;
+set(gca,'Xtick',[1 2 3 4 5 6 7 8 9],'ytick',[50 100 150]);
+grid on;
+figure(4),plot(x,u),axis([0 10 0 10]);
+box off;

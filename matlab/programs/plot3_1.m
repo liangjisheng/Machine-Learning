@@ -1,0 +1,13 @@
+clear all;clc;
+t=0.1:0.1:1.5*pi;
+x=sin(t);
+y=cos(t);
+z=exp(-0.4*x).*cos(t);
+figure('color',[1,1,1]);
+subplot(121);
+plot3(x,y,z);
+grid on;
+subplot(122);
+[X,Y,Z]=peaks(20);
+plot3(X,Y,Z);
+grid on;

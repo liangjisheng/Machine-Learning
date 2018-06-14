@@ -1,0 +1,99 @@
+help
+
+lookfor
+
+输入命令的前几个字母，然后按Tab键，
+系统就会列出所有以这几个字母开头的命令
+
+clc  翻过一页命令窗，光标回到屏幕左上角
+
+clear 从工作空间清除所有变量
+
+clf 清除图形窗口内容
+
+who 列出当前工作空间中的变量
+
+whos 列出当前工作空间中的变量及信息
+
+more 命令窗分布输出
+
+clear all 从工作空间清除所有变量和函数
+
+help <命令名>查询所列命令的帮助信息
+
+save name 保存工作空间变量到文件name.mat
+
+save name x y保存工作空间变量x y到文件name.mat
+
+load name 装载’name’文件中的所有变量到工作空间
+
+load name x y装载’name’文件中的变量x y到工作空间
+
+type name.m 在工作空间查看name.m文件内容
+
+what 列出当前目录下的m文件和mat文件
+
+format	默认的数据格式，同short格式一致	
+271.82显示为271.82002718.2	显示为2.7182e+003
+
+format short	具有固定的显示格式，保留小数点后四位
+有效数字，对于大于1000的数值，使用科学计数法表示
+
+format long	具有固定的15位有效数字	2.71828182845905
+
+format short e	具有5位有效数字的科学计数法
+表示	2.7183e+000
+
+format long e	具有15位有效数字的科学计数法表示
+2.718281828459046e+000
+
+format short g	紧凑的显示方法，在format short和
+format short e中自动选择数据的显示格式	2.7183
+
+format long g	紧凑的显示方法，在format long和
+format long e中自动选择数据的显示格式2.71828182845905
+
+format hex	使用16进制的数据形式表示4005bf0a8b14576a
+
+format +	在使用该格式显示大矩阵时，分别使用正号、
+负号或者空格显示矩阵元素中的正数、负数或者0	+
+
+format bank	使用金融的数据显示方法，小数点后只有
+两位有效数字	2.72
+
+format rat	使用近似的分数表示数值	1457/536
+
+home	将当前命令行敞口的光标设置在左上角
+
+dos	执行dos系统指令
+
+cd	切换路径或者显示当前的路径
+
+pwd	显示当前的路径
+
+dir、ls	显示当前路径下的文件
+
+what	显示当前路径下的MATLAB文件
+
+which	判断当前文件的所在路径
+
+Help	在MATLAB命令行中显示在线帮助
+
+Helpwin	在帮助浏览器中显示在线帮助
+
+Helpbrowser	打开帮助浏览器，并显示超文本帮助文档
+
+Helpdesk 与函数Helpbrowser功能一致，在早期版本的
+MATLAB中可以打开帮助界面
+
+Doc	打开帮助浏览器，并显示指定的内容
+
+Docroot	帮助文档存在的根目录
+
+Demo	打开帮助浏览器并显示Demos标签页
+
+Dbtype	显示M文件内容，同时包括文件代码行号
+
+Lookfor	搜索H1帮助行
+
+Web	打开帮助浏览器并显示指定的超文本链接内容

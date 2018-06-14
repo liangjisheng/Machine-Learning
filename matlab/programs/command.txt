@@ -1,0 +1,14 @@
+指  令	说  明
+exit、quit	退出MATLAB会话
+format	数字格式
+clc	清除当前的命令行窗口
+home	将当前命令行敞口的光标设置在左上角
+dos	执行dos系统指令
+unix	执行unix系统指令
+system	执行系统指令，针对不同的系统有不同的指令
+perl	执行perl脚本
+cd	切换路径或者显示当前的路径
+pwd	显示当前的路径
+dir、ls	显示当前路径下的文件
+what	显示当前路径下的MATLAB文件
+which	判断当前文件的所在路径
